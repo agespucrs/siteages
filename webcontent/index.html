@@ -1,0 +1,89 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Elsie:400,900' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/parallax.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script>
+		$(function(){   
+			var nav = $('#menuAGES');   
+			$(window).scroll(function () { 
+				if ($(this).scrollTop() > 150) { 
+					nav.addClass("menuFixo"); 
+				} else { 
+					nav.removeClass("menuFixo"); 
+				} 
+			});  
+		});
+	</script>
+</head>
+<body>
+    <nav id="menuPUC" >
+         <ul >
+                <li>PUCRS</li>
+                <li><a href="http://www.pucrs.br/vestibular/" id="vestibular" title="Vestibular" alt="Vestibular">Vestibular</a></li>
+                <li><a href="http://www3.pucrs.br/portal/page/portal/biblioteca/Capa" id="biblioteca" title="Biblioteca" alt="Biblioteca">Biblioteca</a></li>
+                <li><a href="http://www.pucrs.br/adm/proex/cursoseeventos/index.htm" id="extensao" title="Extensão" alt="Extensão">Extensão</a></li>
+                <li><a href="http://www.pucrs.br/pos/" id="pos-graduacao" title="Pós-Graudação" alt="Pós-Graudação">Pós-Graudação</a></li>
+                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/Graduacao" id="graduacao" title="Graduação" alt="Graduação">Extensão</a></li>
+                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/UnidadesUniversitarias" id="unidades" title="Unidades Universitárias" alt="Unidades Universitárias">Unidades Universitárias</a></li>
+                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AdministracaoSuperior" id="adm_superior" title="Administração Superior" alt="Administração Superior">Administração Superior</a></li>
+                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AUniversidade" id="universidade" title="A Universidade" alt="A Universidade">A Universidade</a></li>
+        </ul>
+    </nav>
+    
+    <header class="header">
+        <div class="container">
+            <div id="logoAGES">
+              <img src="img/logoAGES.jpg" alt="">
+            </div>
+        <div class="pull-right">umdia vai funcionar</div>
+
+        </div>
+    </header>
+        <nav id="menuAGES" >
+          <div class="container">
+            <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#projeto">Projetos</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#">FACIN</a></li>
+          </ul>
+            </div>
+        </nav>
+    <div class="container">
+                     <div id="quemsomos" class="bgParallax" data-speed="15">
+                         <article>
+                            <h1>O que é a AGES.</h1>
+                            <p>O objetivo do Curso de Bacharelado em Engenharia de Software é formar profissionais com sólida competência e conhecimento profundo de arquitetura de software, tecnologias e processos de desenvolvimento, de maneira a poder produzir software robusto e com qualidade, de maneira sistemática e eficiente, desde aplicativos simples até sistemas críticos de alta complexidade. O domíniodos métodos e processos, para além das tecnologias e das técnicas, pressupõe a vivência de situações reais onde a aplicação desses conhecimentos é contextuada pelo cotidiano. 
+                            A AGES - Agencia Experimental de Engenharia de Software - nasce para trazer esse espaço de vivências para os alunos. Através da agência, aprofundamos a prática de formas de ensino aprendizagem que propiciam: · a oportunidade de integração de forma estruturada dos conhecimentos absorvidos durante o curso; · o enfrentamento de desafios de complexidades reais; · o desenvolvimento do saber fazer, além do saber, e a reflexão sobre a ação; · o desenvolvimento de trabalho em equipe e a reflexão sobre o comportamento profissional. A AGES é componente curricular do Curso de Bacharelado em Engenharia de Software, integrada com as outras disciplinas do curso. O estudante passa pela dinâmica da Agência por 4 vezes durante seu curso. Estas passagens se dão em níveis diferentes de maturidade, propondo novos desafios e ajudando os estudantes a construirem incrementalmente suas habilidades. Entre os objetivos do perfil do egresso deste curso, a autonomia deve especialmente ser trabalhada com os elementos da Agência.</p>
+                         </article>
+                    </div>
+                    <div id="projeto" class="bgParallax" data-speed="10">
+                         <article>
+                            <h1>Projetos</h1>
+                            <p>Fluxo AGES / CePES Materials</p>
+                         </article>
+                    </div> 
+                  <div id="equipe" class="bgParallax" data-speed="10">
+                         <article>
+                             <h1>Equipe</h1>
+                             <h2>Coordenador da AGES</h2>
+                             <p>Prof. Dr. Flávio Moreira de Oliveira</p>
+                             <hr>
+                             <h2>Arquiteto de Software</h2>
+                             <p>Cássio A.W. Trindade</p>
+                             <hr>
+                             <h2>Professores</h2>
+                             <p>Prof. M.Sc. Rafael M. Chanin</p>
+                             <p>Prof. Dr. Ricardo M. Bastos</p>
+                             <hr>
+                             <h2>Estagiários</h2>
+                             <p>Alissa Machado</p>
+                      </article>
+                  </div>
+        </div><!--/.container -->
+</body>
+</html>

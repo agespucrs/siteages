@@ -1,0 +1,172 @@
+* {
+    margin:0; 
+    padding: 0;
+}
+html, body {
+    height:100%;
+    
+}
+
+body{
+    background-color: #ee752d;
+}
+
+.header {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#logoAGES {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+    float: left;
+}
+#logoAGES img  {
+    margin-top: 0px;
+    width: 200px;
+    height: 150px;
+}
+
+#menuPUC {
+    margin: 0;
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-family: verdana;
+    font-size: 12px;
+    font: white;
+    background-color: blue;
+}
+#menuPUC ul li{
+    margin: 0 5 ;
+    display: inline;
+    border-color: white;
+    border-right: 2px;
+    border: 5px;
+}
+
+#menuPUC  ul li a:hover {
+    text-decoration: underline;
+}
+#menuPUC ul li a,  ul li a:visited {
+    color: #ebebeb;
+    line-height: 12px;
+}
+#menuPUC   a:link {
+    -webkit-tap-highlight-color: #fcd700;
+}
+
+#menuPUC  a {
+    color: #03f;
+}
+#menuPUC a {
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/**
+Menu AGES
+**/
+#menuAGES {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #505492;
+    margin-left: 0;
+}
+
+#menuAGES ul {
+    list-style: none;
+}
+#menuAGES ul li {
+    float: left;
+}
+#menuAGES ul li a {
+    padding: 15px 30px;
+    line-height: 50px;
+    border-left: 1px solid #505492;
+    border-right: 1px solid #505492;
+    text-decoration: none;
+    color: #fff;
+}
+#menuAGES ul li:first-child a {
+    border-left: 0;
+}
+#menuAGES ul li:last-child a {
+    border-right: 0;
+}
+#menuAGES ul li a:hover {
+    background-color: #4aa6e0;
+}
+
+.menuFixo {
+	position:fixed !important;
+	top: 0;
+	z-index: 99;
+}
+
+
+.container {
+    padding: 0;
+    width: 960px;
+}
+
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+	font-family: 'Verdana', cursive;
+    color: #505492;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200;
+	position: relative;
+	min-height: 100%;
+	text-shadow:0 0 20px rgba(0,0,0,0.7);
+    background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+    
+}
+ 
+/* Define backgrounds dos divs */
+#quemsomos {
+    background-image: url("../img/fundoAGES.jpg");
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+
+#projeto {
+	background-image: url("../img/fundoAGES.jpg");
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+ 
+#equipe {
+	background-image: url("../img/fundoAGES.jpg");
+	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+ 
+/** Formata o article que vai o texto **/
+
+.bgParallax article {
+  width: 85%;
+  text-align: justify;
+  margin:0 auto;
+  padding:5% 0 0;
+}
+ 
+/* formata texto */
+.bgParallax article h1 {font-size:40px;}
+.bgParallax article p {line-height: 30px; font-size:20px; margin-top:15px;}
+.bgParallax article p a {color:#505492; text-decoration:none; font-size:30px;}
+
+
+ 
