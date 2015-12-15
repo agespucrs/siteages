@@ -4,38 +4,26 @@
     <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Elsie:400,900' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/parallax.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/ages.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script>
-		$(function(){   
-			var nav = $('#menuAGES');   
-			$(window).scroll(function () { 
-				if ($(this).scrollTop() > 150) { 
-					nav.addClass("menuFixo"); 
-				} else { 
-					nav.removeClass("menuFixo"); 
-				} 
-			});  
-		});
-	</script>
 </head>
 <body>
-    <nav id="menuPUC" >
-         <ul >
-                <li>PUCRS</li>
-                <li><a href="http://www.pucrs.br/vestibular/" id="vestibular" title="Vestibular" alt="Vestibular">Vestibular</a></li>
-                <li><a href="http://www3.pucrs.br/portal/page/portal/biblioteca/Capa" id="biblioteca" title="Biblioteca" alt="Biblioteca">Biblioteca</a></li>
-                <li><a href="http://www.pucrs.br/adm/proex/cursoseeventos/index.htm" id="extensao" title="Extensão" alt="Extensão">Extensão</a></li>
-                <li><a href="http://www.pucrs.br/pos/" id="pos-graduacao" title="Pós-Graudação" alt="Pós-Graudação">Pós-Graudação</a></li>
-                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/Graduacao" id="graduacao" title="Graduação" alt="Graduação">Extensão</a></li>
-                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/UnidadesUniversitarias" id="unidades" title="Unidades Universitárias" alt="Unidades Universitárias">Unidades Universitárias</a></li>
-                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AdministracaoSuperior" id="adm_superior" title="Administração Superior" alt="Administração Superior">Administração Superior</a></li>
-                <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AUniversidade" id="universidade" title="A Universidade" alt="A Universidade">A Universidade</a></li>
+    <nav id="menuPUC" > <!--/.menu PUCRS -->
+        <ul>
+            <li>PUCRS</li>
+            <li><a href="http://www.pucrs.br/vestibular/" target="_blank" id="vestibular" title="Vestibular" alt="Vestibular">Vestibular</a></li>
+            <li><a href="http://www3.pucrs.br/portal/page/portal/biblioteca/Capa" target="_blank" id="biblioteca" title="Biblioteca" alt="Biblioteca">Biblioteca</a></li>
+            <li><a href="http://www.pucrs.br/adm/proex/cursoseeventos/index.htm" target="_blank" Id="extensao" title="Extensão" alt="Extensão">Extensão</a></li>
+            <li><a href="http://www.pucrs.br/pos/" target="_blank" id="pos-graduacao" title="Pós-Graudação" alt="Pós-Graudação">Pós-Graudação</a></li>
+            <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/Graduacao" target="_blank" id="graduacao" title="Graduação" alt="Graduação">Extensão</a></li>
+            <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/UnidadesUniversitarias" target="_blank" id="unidades" title="Unidades Universitárias" alt="Unidades Universitárias">Unidades Universitárias</a></li>
+            <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AdministracaoSuperior" target="_blank" id="adm_superior" title="Administração Superior" alt="Administração Superior">Administração Superior</a></li>
+            <li><a href="http://www3.pucrs.br/portal/page/portal/pucrs/Capa/AUniversidade" target="_blank" id="universidade" title="A Universidade" alt="A Universidade">A Universidade</a></li>
         </ul>
-    </nav>
-    
-    <header class="header">
+    </nav> <!--/.menu PUC -->
+
+    <header class="header"> <!--/.cabaçalho página -->
         <div class="container">
             <div id="logoAGES">
               <img src="img/logoAGES_h.jpg" alt="">
@@ -44,73 +32,92 @@
                 AREA DE DESTAQUE
             </div>
         </div>
-    </header>
-        <nav id="menuAGES" >
-          <div class="container">
-            <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#projeto">Projetos</a></li>
-            <li><a href="#equipe">Equipe</a></li>
-            <li><a href="#">FACIN</a></li>
-          </ul>
-            </div>
-        </nav>
-    <div class="container">
-                     <div id="quemsomos" class="bgParallax" data-speed="15">
-                         <article>
-                            <h1>O que é a AGES.</h1>
-                             <p>O objetivo do Curso de Bacharelado em Engenharia de Software é formar profissionais com sólida competência e conhecimento profundo de arquitetura de software, tecnologias e processos de desenvolvimento, de maneira a poder produzir software robusto e com qualidade, de maneira sistemática e eficiente, desde aplicativos simples até sistemas críticos de alta complexidade.</p> 
-                             <img src="img/andarsuperior.JPG" class="imgAndarSuperio">
-                             <p>O domínio dos métodos e processos, para além das tecnologias e das técnicas, pressupõe a vivência de situações reais onde a aplicação desses conhecimentos é contextuada pelo cotidiano. <b>A AGES - Agencia Experimental de Engenharia de Software</b> - nasce para trazer esse espaço de vivências para os alunos. Através da agência, aprofundamos a prática de formas de ensino aprendizagem que propiciam:</p> 
-                                 <ul>
-                                     <li>A oportunidade de integração de forma estruturada dos conhecimentos absorvidos durante o curso; </li>
-                                     <li>O enfrentamento de desafios de complexidades reais;</li>
-                                     <li>O desenvolvimento do saber fazer, além do saber, e a reflexão sobre a ação;</li>
-                                     <li>O desenvolvimento de trabalho em equipe e a reflexão sobre o comportamento profissional.</li>
-                             </ul>
-                             <p>A AGES é componente curricular do Curso de Bacharelado em Engenharia de Software, integrada com as outras disciplinas do curso. O estudante passa pela dinâmica da Agência por 4 vezes durante seu curso. Estas passagens se dão em níveis diferentes de maturidade, propondo novos desafios e ajudando os estudantes a construírem progressivamente suas habilidades. Entre os objetivos do perfil do egresso deste curso, a autonomia deve especialmente ser trabalhada com os elementos da Agência.</p>
-                         </article>
-                    </div>
-                    <div id="projeto" class="bgParallax" data-speed="10">
-                         <article>
-                            <h1>Projetos</h1>
-                             <h2>CePES Materials</h2>
-                             <p>Sistema criado para gerenciar os materiais utilizados no CePES (Centro de Pesquisa em Engenharia de Software), tais como notebooks e livros, através de um cadastro intuitivo. Outra das funcionalidades é a geração de relatórios referentes aos materiais distribuídos nos projetos do CePES.</p>
-                             <p>No período 2015/2 a equipe formada pelos alunos da AGES trabalhou fortemente na implementação dos cadastros de usuários do sistema e da manutenção do material “livros”.</p> 
-                             <p>Esse projeto já tem documentação pronta para a implementação do restante dos cadastros que esperamos concluir com a nova turma da AGES em 2016/1.</p>
-                             <h2>Time</h2>
-                             <h3>Gerente de projeto</h3>	
-                             <p>Prof. M.Sc. Rafael M. Chanin</p>
-                             <h3>Desenvolvedores</h3>
-                             <p>Eduardo  Oliveira</p>
-                             <p>Luis Felipe da Silava</p>
-                             <p>Matheus Cyntrão</p>
-                             <p>Matheus Ferreira</p>
-                             <p>Matheus Lagreca</p>
-                             <p>João Pedro Garcia (líder técnico)</p>
-                                
+    </header><!--/.cabaçalho página -->
 
-                             <hr>
-                             <h2>Fluxo AGES</h2>
-                         </article>
-                    </div> 
-                  <div id="equipe" class="bgParallax" data-speed="10">
-                         <article>
-                             <h1>Equipe</h1>
-                             <h2>Coordenador da AGES</h2>
-                             <img src="img/ages_bottom.png" class="imgUser"> <span>Prof. Dr. Flávio Moreira de Oliveira</span>
-                             <hr>
-                             <h2>Arquiteto de Software</h2>
-                             <img src="img/cassio_bottom.png" class="imgUser"> <span>Cássio A.W. Trindade</span>
-                             <hr>
-                             <h2>Professores</h2>
-                             <img src="img/ages_bottom.png" class="imgUser"> <span>Prof. M.Sc. Rafael M. Chanin</span></br>
-                             <img src="img/ages_bottom.png" class="imgUser"> <span>Prof. Dr. Ricardo M. Bastos</span>
-                             <hr>
-                             <h2>Estagiários</h2>
-                             <img src="img/ages_bottom.png" class="imgUser"> <span>Alissa Machado</span>
-                      </article>
-                  </div>
-        </div><!--/.container -->
+    <nav id="menuAGES" > <!--/.menu AGES --> 
+        <div class="container">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#projeto">Projetos</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#">FACIN</a></li>
+            </ul>
+        </div>
+    </nav> <!--/.menu AGES -->
+
+    <div class="container"> <!--/.container principal -->
+        <div id="quemsomos" class="bgParallax" data-speed="15">
+            <article>
+                <h1>O que é a AGES.</h1>
+                <p>O objetivo do Curso de Bacharelado em Engenharia de Software é formar profissionais com sólida competência e conhecimento profundo de arquitetura de software, tecnologias e processos de desenvolvimento, de maneira a poder produzir software robusto e com qualidade, de maneira sistemática e eficiente, desde aplicativos simples até sistemas críticos de alta complexidade.</p> 
+                <img src="img/andarsuperior.JPG" class="imgAndarSuperio">
+                <p>O domínio dos métodos e processos, para além das tecnologias e das técnicas, pressupõe a vivência de situações reais onde a aplicação desses conhecimentos é contextuada pelo cotidiano. <b>A AGES - Agencia Experimental de Engenharia de Software</b> - nasce para trazer esse espaço de vivências para os alunos. Através da agência, aprofundamos a prática de formas de ensino aprendizagem que propiciam:</p> 
+                <ul>
+                   <li>A oportunidade de integração de forma estruturada dos conhecimentos absorvidos durante o curso; </li>
+                   <li>O enfrentamento de desafios de complexidades reais;</li>
+                   <li>O desenvolvimento do saber fazer, além do saber, e a reflexão sobre a ação;</li>
+                   <li>O desenvolvimento de trabalho em equipe e a reflexão sobre o comportamento profissional.</li>
+               </ul>
+               <p>A AGES é componente curricular do Curso de Bacharelado em Engenharia de Software, integrada com as outras disciplinas do curso. O estudante passa pela dinâmica da Agência por 4 vezes durante seu curso. Estas passagens se dão em níveis diferentes de maturidade, propondo novos desafios e ajudando os estudantes a construírem  progressivamente suas habilidades. Entre os objetivos do perfil do egresso deste curso, a autonomia deve especialmente ser trabalhada com os elementos da Agência.</p>
+           </article>
+        </div>
+        <div id="projeto" class="bgParallax" data-speed="10">
+            <article>
+                <h1>Projetos</h1>
+                <h2><a href="http://www.cepes.pucrs.br/site/" target="_blank"> CePES Materials</a></h2>
+                <p>Sistema criado para gerenciar os materiais utilizados no CePES (Centro de Pesquisa em Engenharia de Software), tais como notebooks e livros, através de um cadastro intuitivo. Outra das funcionalidades é a geração de relatórios referentes aos materiais distribuídos nos projetos do CePES.</p>
+                <p>No período 2015/2 a equipe formada pelos alunos da AGES trabalhou fortemente na implementação dos cadastros de usuários do sistema e da manutenção do material “livros”.</p> 
+                <p>Esse projeto já tem documentação pronta para a implementação do restante dos cadastros que esperamos concluir com a nova turma da AGES em 2016/1.</p>
+                <hr>
+                <h2>Time</h2>
+                <h3>Gerente de projeto</h3>	
+                <p>Prof. M.Sc. Rafael M. Chanin</p>
+                <h3>Arquiteto SW/Analista de Sistemas</h3>
+                <a href="https://br.linkedin.com/in/cassiowt" target="_blank"><img src="img/cassio_boton.png" class="imgUser"></a> <span>Cássio A.W. Trindade</span>
+                <h3>Desenvolvedores</h3>
+                <img src="img/ages_bottom.png" class="imgUser"><span>Eduardo  Oliveira</span>
+                <p>Luis Felipe da Silava</p>
+                <p>Matheus Cyntrão</p>
+                <p>Matheus Ferreira</p>
+                <p>Matheus Lagreca</p>
+                <p>João Pedro Garcia (líder técnico)</p>
+                <hr>
+                <h2>Ciclo Desenvolvimento</h2>
+                <ul>
+                    <div class="listaEsquerda">
+                    <li><span class="glyphicon glyphicon-ok-sign" style="color:#107CC2; padding:0px;"></span>Análise e documentação</li>
+                    <li><span class="glyphicon glyphicon-ok-sign" style="color:#64A0D7; padding:0px;"></span>Capacitação</li>
+                    <li><span class="glyphicon glyphicon-ok-sign" style="color:#E98038; padding:0px;"></span>Prototipação</li>
+                    </div>
+                    <div class="listaEsquerda">
+                    <li><span class="glyphicon glyphicon-ok-sign" style="color:#A7A7A7; padding:0px;"></span>Desenvolvimento</li>
+                    <li><span class="glyphicon glyphicon-ok-sign" style="color:#FABD01; padding:0px;"></span>Gestão</li>
+                    </div>
+                </ul>
+
+                <img src="img/reguaprojetos.png">
+
+                <hr>
+                <h2>Fluxo AGES</h2>
+            </article>
+        </div> 
+        <div id="equipe" class="bgParallax" data-speed="10">
+            <article>
+               <h1>Equipe</h1>
+               <h2>Coordenador da AGES</h2>
+               <a href="" target="_blank" ><img src="img/flavio_boton.png" class="imgUser"></a> <span>Prof. Dr. Flávio Moreira de Oliveira</span>
+               <hr>
+               <h2>Arquiteto de Software</h2>
+               <a href="https://br.linkedin.com/in/cassiowt" target="_blank" ><img src="img/cassio_boton.png" class="imgUser"></a><span>Cássio A.W. Trindade</span>
+               <hr>
+               <h2>Professores</h2>
+               <a href="" target="_blank" ><img src="img/chanin_boton.png" class="imgUser"></a> <span>Prof. M.Sc. Rafael M. Chanin</span></br>
+               <a href="" target="_blank" ><img src="img/bastos_boton.png" class="imgUser"></a> <span>Prof. Dr. Ricardo M. Bastos</span>
+               <hr>
+               <h2>Estagiários</h2>
+               <a href="" target="_blank" ><img src="img/ali_boton.png" class="imgUser"></a> <span>Alissa Machado</span>
+            </article>
+        </div>
+    </div><!--/.container principal -->
 </body>
 </html>

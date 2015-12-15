@@ -168,14 +168,12 @@ Menu AGES
 .bgParallax article p a {color:#505492; text-decoration:none; font-size:30px;}
 .bgParallax span{line-height: 30px; font-size:20px; margin-top:15px;margin-left: 10px;}
 .bgParallax ul{line-height: 30px; font-size:18px; margin-top:15px;margin-left: 15px; text-align: left;}
-.bgParallax li{list-style:none;list-style-image:url(../img/seta.gif);}
+.bgParallax li{list-style:none;}
 
-
-
- 
+#quemsomos li{list-style:none;list-style-image:url(../img/seta.gif);}
 
 .imgUser {
-   width: 75;
+   width: 85;
    height: 75;
     margin-top: 5px;
  
@@ -199,4 +197,12 @@ Menu AGES
     padding: 10;
     font-size: 24px;
     color: #ee752d;
+}
+
+.listaDireita{
+    float: right;
+}
+
+.listaEsquerda{
+    float: left;
 }
