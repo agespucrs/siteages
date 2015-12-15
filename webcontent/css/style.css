@@ -168,6 +168,9 @@ Menu AGES
 .bgParallax article p {line-height: 30px; font-size:20px; margin-top:15px;}
 .bgParallax article p a {color:#505492; text-decoration:none; font-size:30px;}
 .bgParallax span{line-height: 30px; font-size:20px; margin-top:15px;margin-left: 10px;}
+.bgParallax ul{line-height: 30px; font-size:18px; margin-top:15px;margin-left: 15px; text-align: left;}
+.bgParallax li{list-style:none;list-style-image:url(../img/seta.gif);}
+
 
 
  
@@ -177,4 +180,15 @@ Menu AGES
    height: 75;
     margin-top: 5px;
  
+}
+
+.imgAndarSuperio {
+    width: 350;
+    float: right;
+    padding: 20;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
