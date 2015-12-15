@@ -117,7 +117,7 @@ Menu AGES
 /** formata elementos que tem backgrounds parallax **/
 .bgParallax {
 	font-family: 'Verdana', cursive;
-    color: #505492;
+    color: #fff;
 	margin: 0 auto;
 	width: 90%;
 	max-width: 1200;
@@ -132,12 +132,12 @@ Menu AGES
  
 /* Define backgrounds dos divs */
 #quemsomos {
-    background-image: url("../img/fundoAGES.jpg");
+    background-image: url("../img/fundo.jpg");
     box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 }
 
 #projeto {
-	background-image: url("../img/fundoAGES.jpg");
+	background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -146,7 +146,7 @@ Menu AGES
 }
  
 #equipe {
-	background-image: url("../img/fundoAGES.jpg");
+	background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -167,6 +167,14 @@ Menu AGES
 .bgParallax article h1 {font-size:40px;}
 .bgParallax article p {line-height: 30px; font-size:20px; margin-top:15px;}
 .bgParallax article p a {color:#505492; text-decoration:none; font-size:30px;}
+.bgParallax span{line-height: 30px; font-size:20px; margin-top:15px;margin-left: 10px;}
 
 
  
+
+.imgUser {
+   width: 75;
+   height: 75;
+    margin-top: 5px;
+ 
+}
