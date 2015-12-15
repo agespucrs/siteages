@@ -17,14 +17,13 @@ body{
 }
 
 #logoAGES {
-  width: 200px;
+  width: 450px;
   height: 150px;
-  margin: 0 auto;
-    float: left;
+  float: left;
 }
 #logoAGES img  {
     margin-top: 0px;
-    width: 200px;
+    width: 400px;
     height: 150px;
 }
 
@@ -133,7 +132,7 @@ Menu AGES
 /* Define backgrounds dos divs */
 #quemsomos {
     background-image: url("../img/fundo.jpg");
-    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    box-shadow:-20px 0 50px 5px rgba(0,0,0,0.7);
 }
 
 #projeto {
@@ -191,4 +190,13 @@ Menu AGES
     -moz-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
+}
+
+.destaque {
+    float: right;
+    width: 500;
+    height: 150;
+    padding: 10;
+    font-size: 24px;
+    color: #ee752d;
 }
