@@ -131,11 +131,15 @@ Menu AGES
  
 /* Define backgrounds dos divs */
 #quemsomos {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     background-image: url("../img/fundo.jpg");
     box-shadow:-20px 0 50px 5px rgba(0,0,0,0.7);
 }
 
 #projeto {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -145,15 +149,17 @@ Menu AGES
 }
 
 .projetocepes{
-    margin:0;
+    margin-left:20px;
     padding:0;
 }
 .projetoages{
-    margin:0;
+    margin-left:20px;
     padding:0;
 }
 
 #equipe {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 	background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -188,15 +194,18 @@ Menu AGES
 }
 
 .ciclo{
-    margin:0;
+    margin-left: 20px;
     padding:0;
 }
 
 .cronograma{
-     padding:10px;
+    margin:0;
+    padding:0;
 }
 .legenda{
-    height: 140px;
+    height: 180px;
+    width: 721;
+    margin-top: -22px;
     border-color: #fff;
     border:solid;
 }
