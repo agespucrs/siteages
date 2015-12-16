@@ -136,14 +136,23 @@ Menu AGES
 }
 
 #projeto {
-	background-image: url("../img/fundo.jpg");
+    background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 	box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 }
- 
+
+.projetocepes{
+    margin:0;
+    padding:0;
+}
+.projetoages{
+    margin:0;
+    padding:0;
+}
+
 #equipe {
 	background-image: url("../img/fundo.jpg");
 	-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -165,17 +174,47 @@ Menu AGES
 /* formata texto */
 .bgParallax article h1 {font-size:40px;}
 .bgParallax article p {line-height: 30px; font-size:20px; margin-top:15px;}
-.bgParallax article p a {color:#505492; text-decoration:none; font-size:30px;}
+.bgParallax h2 a {color:#fff; }
+.bgParallax article p a {color:#fff; font-size:30px;}
 .bgParallax span{line-height: 30px; font-size:20px; margin-top:15px;margin-left: 10px;}
+.bgParallax article span a {color:#fff;  font-size:30px;}
 .bgParallax ul{line-height: 30px; font-size:18px; margin-top:15px;margin-left: 15px; text-align: left;}
 .bgParallax li{list-style:none;}
 
 #quemsomos li{list-style:none;list-style-image:url(../img/seta.gif);}
 
+.time{
+    margin-left: 20px;
+}
+
+.ciclo{
+    margin:0;
+    padding:0;
+}
+
+.cronograma{
+     padding:10px;
+}
+.legenda{
+    height: 140px;
+    border-color: #fff;
+    border:solid;
+}
+.listaDireita{
+    float:right;
+    width:50%;
+}
+
+.listaEsquerda{
+    float:left;
+    width:50%;
+    padding:10px;
+}
+
 .imgUser {
-   width: 85;
-   height: 75;
-    margin-top: 5px;
+   width: 103;
+   height: 85;
+   margin: 0px;
  
 }
 
@@ -183,13 +222,13 @@ Menu AGES
     width: 350;
     float: right;
     padding: 20;
-    -ms-transform: rotate(-10deg);
+   /* -ms-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
+}*/
 }
-
 .destaque {
     float: right;
     width: 500;
@@ -199,10 +238,4 @@ Menu AGES
     color: #ee752d;
 }
 
-.listaDireita{
-    float: right;
-}
 
-.listaEsquerda{
-    float: left;
-}

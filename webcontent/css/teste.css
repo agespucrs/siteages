@@ -1,0 +1,48 @@
+geral {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#fff;
+}
+#geral {
+    width:960px;
+    margin:0 auto;
+    background:#ddd;
+}
+#cabecalho {
+    padding:10px;
+	background:#fdd;
+}
+#conteudo-1 {
+    float:left;
+    /* diminuimos a largura para não quebrar o layout. 
+	 * valor antigo 220
+	*/
+	width:210px;
+    background:#bfb;
+	padding:10px;
+}
+#conteudo-2 {
+    float:right;
+    width:720px;
+}
+#conteudo-2-1 {
+    float:left;
+    width:480px;
+    background:#ddf;
+	padding:10px;
+}
+#conteudo-2-2 {
+    float:right;
+	/*diminuimos a largura para não quebrar o layout
+	 * valor antigo 220
+	*/
+    width:200px;
+    background:#dff;
+	padding:10px;
+}
+#rodape {
+    clear:both;
+    background:#ff9;
+	padding:10px;
+}
