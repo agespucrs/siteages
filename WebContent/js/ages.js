@@ -15,3 +15,14 @@ $(document).ready(function(){
        } 
    });  
  });
+
+ $(document).ready(function(){   
+     var nav = $('#redeSocial');   
+     $(window).scroll(function () { 
+        if ($(this).scrollTop() > 150) { 
+           nav.addClass("menuFixoRede"); 
+       } else { 
+           nav.removeClass("menuFixoRede"); 
+       } 
+   });  
+ });
