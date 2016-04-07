@@ -260,11 +260,7 @@ Menu AGES
 }
 
 .legenda {
-	height: 180px;
-	width: 721;
-	margin-top: -22px;
-	border-color: #fff;
-	border: solid;
+	overflow: auto;
 }
 
 .listaDireita {
