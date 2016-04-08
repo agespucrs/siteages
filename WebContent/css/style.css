@@ -280,17 +280,6 @@ Menu AGES
 	margin: 0px;
 }
 
-.imgAndarSuperio {
-	width: 350;
-	float: right;
-	padding: 20;
-	/* -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-}*/
-}
 
 .destaque {
 	float: right;
@@ -301,24 +290,57 @@ Menu AGES
 	color: #ee752d;
 }
 
-.kanban table{
+.kanban table {
 	margin-left: 120px;
 	color: white;
 }
 
-.kanban tbody{
+.kanban tbody {
 	color: black;
 }
-.postit{
+
+.postit {
 	background-image: url('../img/postit.png');
 	background-size: 100px 100px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 .kanban td {
 	text-align: center;
-	font-size:14px;
+	font-size: 14px;
 	width: 110px;
 	height: 110px;
 }
 
+.cronograma{
+
+} 
+
+.cronograma i{
+ 	margin-left: 5px;
+} 
+
+.cronograma table {
+	margin-left: 20px;
+	width: 800px;
+	height: 60px;
+}
+
+.cronograma tbody {
+	color: white;
+}
+
+.cronograma td {
+	text-align: center;
+	width: 50px;
+	height: 30px;
+	border: 2px;
+	border-style: solid;
+}
+
+.linha{
+	stroke:white;
+	stroke-width:3;
+	opacity:0.8;
+}
