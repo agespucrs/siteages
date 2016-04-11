@@ -292,7 +292,7 @@ Menu AGES
 }
 
 .kanban table {
-	margin-left: 120px;
+	margin-left: 50px;
 	color: white;
 }
 
@@ -305,15 +305,22 @@ Menu AGES
 	background-size: 100px 100px;
 	background-position: center;
 	background-repeat: no-repeat;
+	font-size: 14px;
 }
 
 .kanban td {
 	text-align: center;
 	font-size: 14px;
-	width: 110px;
+	width: 250px;
 	height: 110px;
 }
+.kanban td p{
+	text-align: center;
+	padding-top:30px;
+	width: 250px;
+	height: 110px;
 
+}
 .cronograma{
 
 } 
