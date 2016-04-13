@@ -6,7 +6,7 @@
 			<!--/projetos -->
 			<div class="cronograma">
 			<h2>
-				<i class="fa fa-tasks"></i> Ciclo Desenvolvimento
+				<i class="fa fa-calendar"></i> Ciclo Desenvolvimento
 			</h2>
 				<table>
 					<tbody>

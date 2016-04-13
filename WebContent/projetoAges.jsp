@@ -1,57 +1,5 @@
-<html>
-<head>
-<title>AGES</title>
-<meta charset="utf-8" />
-<meta http-equiv="author" content="Cassio Trindade">
-<meta http-equiv="versao" content="1.0.0">
-<meta http-equiv="dataCriacao" content="dezembro/2015">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-<link rel="stylesheet" href="./css/bootstrap-social.css" type="text/css">
-<link rel="stylesheet" href="./css/style.css" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Elsie:400,900' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="./js/jquery.min.js"></script>
-<script type="text/javascript" src="./js/ages.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-</head>
-<body>
-	<header class="header">
-		<!--/.cabaçalho página -->
-		<div class="container">
-			<div id="logoAGES">
-				<img src="img/logoAGES_h.jpg" alt="">
-			</div>
-			<div class="destaque">
-				</a>
-			</div>
-		</div>
-	</header>
-	<!--/.cabaçalho página -->
-
-	<nav id="menuAGES">
-		<!--/.menu AGES -->
-		<div class="container">
-			<ul>
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="index.html#projeto">Projetos</a></li>
-				<li><a href="index.html#equipe">Equipe</a></li>
-				<li><a href="http://www3.pucrs.br/portal/page/portal/facinuni/facinuniCapa/facinuniGraduacao/facinuniGraduacaoSoftware" target="_blank">Engenharia
-						de Software</a></li>
-				<li><a href="http://www.pucrs.br/facin/" target="_blank">FACIN</a></li>
-				<li><a href="http://www.pucrs.br/portal/" target="_blank">PUCRS</a></li>
-
-			</ul>
-		</div>
-	</nav>
-	<!--/.menu AGES -->
-
-	<div id="redeSocial" class="redeSocial">
-		<a class="btn btn-social-icon btn-lg btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"> <i class="fa fa-twitter"></i>
-		</a><br> <a class="btn btn-social-icon btn-lg btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"> <i
-			class="fa fa-facebook"></i>
-		</a>
-	</div>
-
+<%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<jsp:include page="./template/head.jsp"></jsp:include>
 	<div class="container">
 		<!--/.container principal -->
 		<div id="projeto" class="bgParallax" data-speed="10">
@@ -59,9 +7,9 @@
 			<article>
 				<div class="projeto">
 					<h2>
-						<i class="fa fa-asterisk"></i> Fluxo AGES
+						Sistema de Controle da AGES
 					</h2>
-					<hr>
+					<h3>FluxoAges</h3>
 					<hr>
 					<p>O projeto Sistema de Controle da AGES tem como intuito prover uma ferramenta para auxílio dos professores e orientadores, a fim de avaliar o
 						desempenho e progresso dos alunos durante vivência dos alunos na agência. O projeto proveu uma documentação e especificação dos casos de uso, uma
@@ -91,13 +39,50 @@
 						<span>Vitor Diehl</span>
 					</div>
 					<hr>
-					<div class="ciclo">
+					<div class="cronograma">
 						<h2>
-							<i class="fa fa-tasks"></i> Ciclo Desenvolvimento
+							<i class="fa fa-calendar"></i> Ciclo Desenvolvimento
 						</h2>
-						<div class="cronograma">
-							<span>2015/02</span> <img src="img/reguaprojetoAGES.png">
-						</div>
+						<table>
+					<tbody>
+						<tr>
+							<td colspan="6">2015</td>
+							<td colspan="12">2016</td>
+						</tr>
+						<tr>
+							<td style="text-align: center;">Jul</td>
+							<td style="text-align: center;">Ago</td>
+							<td style="text-align: center;">Set</td>
+							<td style="text-align: center;">Out</td>
+							<td style="text-align: center;">Nov</td>
+							<td style="text-align: center;">Dez</td>
+							<td style="text-align: center;">Jan</td>
+							<td style="text-align: center;">Fev</td>
+							<td style="text-align: center;">Mar</td>
+							<td style="text-align: center;">Abr</td>
+							<td style="text-align: center;">Mai</td>
+							<td style="text-align: center;">Jun</td>
+							<td style="text-align: center;">Jul</td>
+							<td style="text-align: center;">Ago</td>
+							<td style="text-align: center;">Set</td>
+							<td style="text-align: center;">Out</td>
+							<td style="text-align: center;">Nov</td>
+							<td style="text-align: center;">Dez</td>
+						</tr>
+						<tr>
+							<td colspan="18">
+								<svg width="800" height="200">
+				  					<rect class="linha" x="10" y="20" rx="20" ry="20" width="200" height="30" style="	fill:#107CC2;" />
+				  					<rect class="linha" x="50" y="60" rx="20" ry="20" width="100" height="30" style="fill:#E98038;" />
+				  					<rect class="linha" x="150" y="100" rx="20" ry="20" width="110" height="30" style="fill:#A7A7A7;" />
+				  					<rect class="linha" x="10" y="140" rx="20" ry="20" width="250" height="30" style="fill:#FABD01;" />
+				  					<rect class="linha" x="370" y="140" rx="20" ry="20" width="25" height="30" style="fill:BLACK;" />
+										seu browser n�o suporta inline SVG.
+								</svg>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 						<div class="legenda">
 							<div class="listaEsquerda">
 								<ul>

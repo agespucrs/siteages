@@ -24,7 +24,7 @@
 				<img src="img/logoAGES_h.jpg" alt="">
 			</div>
 			<div class="destaque">
-				</a>
+				<a href="index.html#projeto"><img src="img/destaque.jpg" alt=""></a>
 			</div>
 		</div>
 	</header>
