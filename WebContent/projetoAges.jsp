@@ -11,12 +11,12 @@
 					</h2>
 					<h3>FluxoAges</h3>
 					<hr>
-					<p>O projeto Sistema de Controle da AGES tem como intuito prover uma ferramenta para auxÃ­lio dos professores e orientadores, a fim de avaliar o
-						desempenho e progresso dos alunos durante vivÃªncia dos alunos na agÃªncia. O projeto proveu uma documentaÃ§Ã£o e especificaÃ§Ã£o dos casos de uso, uma
-						arquitetura de sistema bem como um protÃ³tipo funcional.</p>
-					<p>Os resultados obtidos atÃ© agora sÃ£o os cadastros de usuÃ¡rios (professores, alunos, equipe tÃ©cnica), cadastros de projetos, controle de horas
-						complementares dos alunos.</p>
-					<p>Temos a previsÃ£o de que as demais funcionalidades do sistema estejam implementadas atÃ© 2016/2.</p>
+					<p>O projeto Sistema de Controle da AGES tem como intuito prover uma ferramenta para auxílio dos professores e orientadores, 
+					a fim de avaliar o desempenho e progresso dos alunos durante vivência destes na agência. O projeto proveu uma documentação e 
+					especificação dos casos de uso, uma arquitetura de sistema bem como um protótipo funcional em 2015/02.</p>
+					<p>Os resultados obtidos até agora são os cadastros de usuários (professores, alunos, equipe técnica), cadastros de projetos,
+					registro de horas complementares dos alunos.</p>
+					<p>Temos a previsÃ£o de que as demais funcionalidades do sistema estejam implementadas até 2016/2.</p>
 					<hr>
 					<div class="time">
 						<h2>
@@ -30,7 +30,7 @@
 						</p>
 						<h3>Desenvolvedores</h3>
 						<span>Carlos Ilha</span><br>
-						<span>Daniele Souza <i>(lÃ­der tÃ©cnico)</i></span><br>
+						<span>Daniele Souza <i>(líder técnico)</i></span><br>
 						<span>Eduardo Montanha</span><br>
 						<span>Giuseppe Menti</span><br>
 						<span>Matheus Vaccaro</span><br>
@@ -43,7 +43,7 @@
 						<h2>
 							<i class="fa fa-calendar"></i> Ciclo Desenvolvimento
 						</h2>
-						<table>
+					<table>
 					<tbody>
 						<tr>
 							<td colspan="6">2015</td>
@@ -82,7 +82,7 @@
 							</td>
 						</tr>
 					</tbody>
-				</table>
+					</table>
 						<div class="legenda">
 							<div class="listaEsquerda">
 								<ul>

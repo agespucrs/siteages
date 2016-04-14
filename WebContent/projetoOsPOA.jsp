@@ -6,8 +6,8 @@
 			<!--/.projetos AGES -->
 			<article>
 				<div class="projeto">
-					<h2><i class="fa fa-asterisk"></i> Observatório Social de Porto Alegre</h2>
-					<h3>OsPOA</h3>
+					<h2>Sistema de Gestãode indicadores de Saúde</h2>
+					<h3>OsPOA - Observatório Social de Porto Alegre</h3>
 					<hr>
 					<p>Gestão eficiente e transparente do atendimento à saúde é uma tarefa complexa e onerosa, na qual é importante
 					 a participação daqueles diretamente envolvidos no cotidiano dos serviços, ou seja, profissionais e usuários 
