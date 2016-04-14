@@ -21,7 +21,7 @@
 		<!--/.cabeçalho página -->
 		<div class="container">
 			<div id="logoAGES">
-				<img src="img/logoAGES_h.jpg" alt="">
+				<img src="img/logoAGES_h.jpg" alt=""><br/>
 			</div>
 			<div class="destaque">
 				<a href="index.html#projeto"><img src="img/destaque.jpg" alt=""></a>

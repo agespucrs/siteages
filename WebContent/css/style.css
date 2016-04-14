@@ -288,9 +288,10 @@ Menu AGES
 
 
 .destaque {
-	float: right;
+	position:fixed;
 	width: 500;
 	height: 150;
+	margin-left:450px;
 	padding: 10;
 	font-size: 24px;
 	color: #ee752d;

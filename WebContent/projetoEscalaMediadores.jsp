@@ -76,6 +76,7 @@
 							  					<rect class="linha" x="150" y="100" rx="20" ry="20" width="110" height="30" style="fill:#A7A7A7;" />
 							  					<rect class="linha" x="10" y="140" rx="20" ry="20" width="250" height="30" style="fill:#FABD01;" />
 							  					<rect class="linha" x="370" y="140" rx="20" ry="20" width="25" height="30" style="fill:BLACK;" />
+							  					<text x="365" y="130" font-family="Verdana" font-size="14" fill="white" > Versão 1.0 </text>
 													seu browser não suporta inline SVG.
 											</svg>
 										</td>
