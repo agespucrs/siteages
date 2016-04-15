@@ -370,3 +370,29 @@ Menu AGES
 	stroke-width:3;
 	opacity:0.5;
 }
+
+/** Fale Conosco **/
+#faleConosco{
+	margin-bottom: 10px;
+}
+#faleConosco table{
+	width: 100%;
+}
+#faleConosco table td, table td *{
+	vertical-align: top;
+	margin-bottom: 5px;
+}
+#faleConosco input, textarea{
+	width: 85%;
+	color: black;
+}
+#faleConosco select{
+	color:black;
+}
+#faleConosco textarea{
+	overflow: visible;
+}
+#faleConosco input[type=submit]{
+	margin-top: 5px;
+	color: white;
+}
