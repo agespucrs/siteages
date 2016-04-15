@@ -29,7 +29,7 @@
 		</div>
 	</header>
 	<!--/.cabaçalho página -->
-	<nav id="menuAGES">
+	<nav id="menuAGES" class="">
 		<!--/.menu AGES -->
 		<div class="container">
 			<ul>
