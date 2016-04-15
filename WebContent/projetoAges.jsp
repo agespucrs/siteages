@@ -16,7 +16,7 @@
 					especificação dos casos de uso, uma arquitetura de sistema bem como um protótipo funcional em 2015/02.</p>
 					<p>Os resultados obtidos até agora são os cadastros de usuários (professores, alunos, equipe técnica), cadastros de projetos,
 					registro de horas complementares dos alunos.</p>
-					<p>Temos a previsÃ£o de que as demais funcionalidades do sistema estejam implementadas até 2016/2.</p>
+					<p>Temos a previsão de que as demais funcionalidades do sistema estejam implementadas até 2016/2.</p>
 					<hr>
 					<div class="time">
 						<h2>
@@ -26,7 +26,7 @@
 						<span>Prof. Dr. Ricardo M. Bastos</span><br>
 						<h3>Arquiteto SW/Analista de Sistemas</h3>
 						<p>
-							<a href="https://br.linkedin.com/in/cassiowt" target="_blank"><span>CÃ¡ssio A.W. Trindade</span></a>
+							<a href="https://br.linkedin.com/in/cassiowt" target="_blank"><span>Cássio A.W. Trindade</span></a>
 						</p>
 						<h3>Desenvolvedores</h3>
 						<span>Carlos Ilha</span><br>
@@ -35,7 +35,7 @@
 						<span>Giuseppe Menti</span><br>
 						<span>Matheus Vaccaro</span><br>
 						<span>Maximilian Zorzetti</span><br>
-						<span>Pedro LeÃ£o</span><br>
+						<span>Pedro Leão</span><br>
 						<span>Vitor Diehl</span>
 					</div>
 					<hr>
@@ -86,15 +86,15 @@
 						<div class="legenda">
 							<div class="listaEsquerda">
 								<ul>
-									<li><span class="glyphicon glyphicon-ok-sign" style="color: #107CC2; padding: 0px;"></span> AnÃ¡lise e documentaÃ§Ã£o</li>
-									<li><span class="glyphicon glyphicon-ok-sign" style="color: #64A0D7; padding: 0px;"></span> CapacitaÃ§Ã£o</li>
-									<li><span class="glyphicon glyphicon-ok-sign" style="color: #E98038; padding: 0px;"></span> PrototipaÃ§Ã£o</li>
+									<li><span class="glyphicon glyphicon-ok-sign" style="color: #107CC2; padding: 0px;"></span> Análise e documentação</li>
+									<li><span class="glyphicon glyphicon-ok-sign" style="color: #64A0D7; padding: 0px;"></span> Capacitação</li>
+									<li><span class="glyphicon glyphicon-ok-sign" style="color: #E98038; padding: 0px;"></span> Prototipação</li>
 								</ul>
 							</div>
 							<div class="listaEsquerda">
 								<ul>
 									<li><span class="glyphicon glyphicon-ok-sign" style="color: #A7A7A7; padding: 0px;"></span> Desenvolvimento e Teste</li>
-									<li><span class="glyphicon glyphicon-ok-sign" style="color: #FABD01; padding: 0px;"></span> GestÃ£o</li>
+									<li><span class="glyphicon glyphicon-ok-sign" style="color: #FABD01; padding: 0px;"></span> Gestão</li>
 								</ul>
 							</div>
 						</div>
@@ -105,12 +105,4 @@
 		<!--/.projetos AGES -->
 	</div>
 	<!--/.container principal -->
-	<footer>
-		<div class="foot" style="color: #198AB0; background: black; font-size: 12px; text-align: right; height: 40px;">
-			<p style="line-height: 40px; margin-right: 25px;">
-				<span class="glyphicon glyphicon-copyright-mark"></span> Copyright AGES 2015 : Todos direitos reservados: by AGES Team
-			</p>
-		</div>
-	</footer>
-</body>
-</html>
+   <jsp:include page="./template/footer.jsp"></jsp:include>
