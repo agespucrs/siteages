@@ -45,7 +45,7 @@
 	</nav>
 	<!--/.menu AGES -->
 	<div id="redeSocial" class="redeSocial">
-		<a class="btn btn-social-icon btn-lg btn-twitter"  onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"> 
+		<a class="btn btn-social-icon btn-lg btn-twitter"  href="https://twitter.com/AgesPucrs"> 
 		 <i class="fa fa-twitter"></i>
 		</a><br>
 		<a class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/agesengenhariadesoftware/">

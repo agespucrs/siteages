@@ -6,14 +6,10 @@
 	<version>0.0.${build.number}-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>SiteAGES</name>
-
 	<description>Site AGES</description>
-
-
 	<properties>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 	</properties>
-
 	<profiles>
 		<!-- Profile de desenvolvimento (padrao) -->
 		<profile>
@@ -37,7 +33,7 @@
 				<sgbd.url>jdbc:mysql://10.32.223.4:3306/ages_e</sgbd.url>
 				<sgbd.user>root</sgbd.user>
 				<sgbd.password>Ages123$$</sgbd.password>
-				<upload.path>/home/ages/uploadProjetos</upload.path>
+				<upload.path>/home/ages/upload</upload.path>
 				<log.path>/home/ages/</log.path>
 			</properties>
 		</profile>
@@ -48,7 +44,7 @@
 				<sgbd.url>jdbc:mysql://localhost:3306/ages_e</sgbd.url>
 				<sgbd.user>ages_e</sgbd.user>
 				<sgbd.password>oissac1906#ages_e</sgbd.password>
-				<upload.path>/home/ages/uploadProjetos</upload.path>
+				<upload.path>/home/ages/upload</upload.path>
 				<log.path>/home/ages/</log.path>
 			</properties>
 		</profile>
@@ -71,10 +67,8 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
-
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
-
 				</configuration>
 			</plugin>
 			<plugin>
@@ -85,7 +79,6 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
