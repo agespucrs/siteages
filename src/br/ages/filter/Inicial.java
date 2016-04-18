@@ -23,7 +23,7 @@ import br.ages.crud.util.Util;
 @WebFilter("/*")
 public class Inicial implements Filter {
 
-	Logger logger = Logger.getLogger("servlet.FileUploadServlet");
+	Logger logger = Logger.getLogger("filter.Inicial");
 	private Util util;
     /**
      * Default constructor. 
@@ -47,6 +47,7 @@ public class Inicial implements Filter {
 		HttpSession session = httpRequest.getSession();
 		util = new Util();
 		session.setAttribute("versao", util.getVersion());
+		logger.debug(util.getVersion()+" "+ new Date());
 		chain.doFilter(request, response);
 	}
 
@@ -54,6 +55,6 @@ public class Inicial implements Filter {
 	 * @see Filter#init(FilterConfig)
 	 */
 	public void init(FilterConfig fConfig) throws ServletException {
-		logger.info(fConfig.getServletContext().getAttributeNames().toString() +" "+ new Date());
+		logger.debug(fConfig.getServletContext().getAttributeNames().toString() +" "+ new Date());
 	}
 }
