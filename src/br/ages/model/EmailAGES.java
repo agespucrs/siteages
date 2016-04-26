@@ -1,6 +1,6 @@
 package br.ages.model;
 
-public class Email {
+public class EmailAGES {
 	private String assunto;
 	private String mensagem;
 	
@@ -10,7 +10,10 @@ public class Email {
 	private String destinatario;
 	private String emailDestinatario;
 	
-	public Email(String assunto, String mensagem, String remetente, String emailRemetente, 
+	public EmailAGES() {
+		// TODO Auto-generated constructor stub
+	}
+	public EmailAGES(String assunto, String mensagem, String remetente, String emailRemetente, 
 			String destinatario, String emailDestinatario){
 		
 		this.assunto = assunto;
