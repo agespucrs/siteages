@@ -5,7 +5,7 @@
 		<div id="faleConosco" class="bgParallax" data-speed="10">
 		<article>
 			<h2>Fale conosco</h2><br>
-			<form action="enviaEmail" method="post">
+			<form action="FaleConosco" method="post">
 				<table>
 				<col width="15%">
 				<col width="85%">
@@ -22,7 +22,7 @@
 						<td><select name="assunto" required>
 								<option value="duvidas">Dúvidas</option>
 								<option value="vagas">Vagas</option>
-								<option value="cassio">Oi, Cássio!!!!!!!!!!!!!</option>
+								<option value="cassio">Oi, Cássio!</option>
 							</select>
 						</td>
 					</tr>
