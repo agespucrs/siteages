@@ -19,4 +19,6 @@ public class Constantes {
 	public static final String PROJETO_UPLOAD_PATH = "projeto.upload.path";
 	public static final String PROJETO_FILE_EXT = ".pdf";
 	
+	public static final String EMAIL_AGES = "cassiowt@gmail.com";
+	
 }

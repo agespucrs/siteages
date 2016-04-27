@@ -1,8 +1,8 @@
 package br.ages.model;
 
-public class EmailAGES {
+public class Email {
 	private String assunto;
-	private String mensagem;
+	private String corpo;
 	
 	private String remetente;
 	private String emailRemetente;
@@ -10,14 +10,14 @@ public class EmailAGES {
 	private String destinatario;
 	private String emailDestinatario;
 	
-	public EmailAGES() {
+	public Email() {
 		// TODO Auto-generated constructor stub
 	}
-	public EmailAGES(String assunto, String mensagem, String remetente, String emailRemetente, 
+	public Email(String assunto, String mensagem, String remetente, String emailRemetente, 
 			String destinatario, String emailDestinatario){
 		
 		this.assunto = assunto;
-		this.mensagem = mensagem;
+		this.corpo = mensagem;
 		this.remetente = remetente;
 		this.emailRemetente = emailRemetente;
 		this.destinatario = destinatario;
@@ -29,8 +29,8 @@ public class EmailAGES {
 		this.assunto = assunto;
 	}
 
-	public void setMensagem(String mensagem) {
-		this.mensagem = mensagem;
+	public void setCorpo(String mensagem) {
+		this.corpo = mensagem;
 	}
 
 	public void setRemetente(String remetente) {
@@ -53,8 +53,8 @@ public class EmailAGES {
 		return assunto;
 	}
 
-	public String getMensagem() {
-		return mensagem;
+	public String getCorpo() {
+		return corpo;
 	}
 
 	public String getRemetente() {

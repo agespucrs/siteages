@@ -27,8 +27,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td><label for="mensagem">Mensagem:</label></td>
-						<td><textarea name="mensagem" maxlength="1500" rows="13" required></textarea></td>
+						<td><label for="corpo">Mensagem:</label></td>
+						<td><textarea name="corpo" maxlength="1500" rows="13" required></textarea></td>
 					</tr>
  					<tr>
 						<td></td>

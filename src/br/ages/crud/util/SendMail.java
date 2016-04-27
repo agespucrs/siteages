@@ -1,16 +1,27 @@
 package br.ages.crud.util;
 
+import javax.mail.internet.InternetAddress;
+
 import org.apache.commons.mail.DefaultAuthenticator;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
+
+import br.ages.model.Email;
 
 public class SendMail {
 	public SendMail() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void envio(String emailDestinatario, String destinatario, String assunto, String corpo) {
+	public void envioSimples(Email mail) {
 		try {
+			String emailDestinatario = mail.getDestinatario();
+			String destinatario = mail.getDestinatario();
+			String assunto = mail.getAssunto();
+			String corpo = mail.getCorpo();
+			
+			
+			
 			SimpleEmail email = new SimpleEmail();
 			// Servidor SMTP para envio do e-mail
 			email.setHostName("smtp.gmail.com");
