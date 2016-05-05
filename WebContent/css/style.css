@@ -140,7 +140,7 @@ Menu AGES
 	color: #fff;
 	margin: 0 auto;
 	width: 90%;
-	max-width: 1200;
+	max-width: 1200px;
 	position: relative;
 	min-height: 100%;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -281,16 +281,16 @@ Menu AGES
 }
 
 .imgUser {
-	width: 100;
-	height: 75;
+	width: 100px;
+	height: 75px;
 	margin: 0px;
 }
 
 
 .destaque {
 	position:fixed;
-	width: 500;
-	height: 150;
+	width: 500px;
+	height: 150px;
 	margin-left:450px;
 	padding: 10;
 	font-size: 24px;

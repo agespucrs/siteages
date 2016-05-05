@@ -1,5 +1,5 @@
 <%@page language="java" contentType="text/html;"%>
-<jsp:include page="./template/head.jsp"></jsp:include>
+<jsp:include page="./template/header.jsp"></jsp:include>
 	<div class="container">
 		<!--/.container principal -->
 		<div id="projeto" class="bgParallax" data-speed="10">

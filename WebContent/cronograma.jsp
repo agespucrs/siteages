@@ -1,5 +1,5 @@
 <%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<jsp:include page="./template/head.jsp"></jsp:include>
+<jsp:include page="./template/header.jsp"><jsp:param name="title" value="AGES - Cronograma" /></jsp:include>
 	<div class="container">
 		<!--/.container principal -->
 		<div id="projeto" class="bgParallax" data-speed="10">

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>AGES</title>
+<title>${param.title}</title>
 <meta charset="utf-8" />
 <meta http-equiv="author" content="Cassio Trindade">
 <meta http-equiv="versao" content="1.0.0">
@@ -16,7 +16,6 @@
 <script type="text/javascript" src="./js/ages.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 </head>
-<body>
 	<header class="header">
 		<!--/.cabeçalho página -->
 		<div class="container">
@@ -24,7 +23,7 @@
 				<img src="img/logoAGES_h.jpg" alt=""><br/>
 			</div>
 			<div class="destaque">
-				<a href="index.html#projeto"><img src="img/destaque.jpg" alt=""></a>
+				<a href="index.jsp#projeto"><img src="img/destaque.jpg" alt=""></a>
 			</div>
 		</div>
 	</header>
@@ -33,13 +32,14 @@
 		<!--/.menu AGES -->
 		<div class="container">
 			<ul>
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="index.html#projeto">Projetos</a></li>
-				<li><a href="index.html#equipe">Equipe</a></li>
+				<li class="active"><a href="index.jsp">Home</a></li>
+				<li><a href="index.jsp#projeto">Projetos</a></li>
+				<li><a href="index.jsp#equipe">Equipe</a></li>
 				<li><a href="http://www3.pucrs.br/portal/page/portal/facinuni/facinuniCapa/facinuniGraduacao/facinuniGraduacaoSoftware" target="_blank">Engenharia
 						de Software</a></li>
 				<li><a href="http://www.pucrs.br/facin/" target="_blank">FACIN</a></li>
 				<li><a href="http://www.pucrs.br/portal/" target="_blank">PUCRS</a></li>
+				<li><a href="faleConosco.jsp" target="_blank">Fale conosco</a></li>
 			</ul>
 		</div>
 	</nav>
