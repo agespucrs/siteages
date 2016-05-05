@@ -1,28 +1,21 @@
 package br.ages.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.mail.internet.InternetAddress;
+
 public class Email {
 	private String assunto;
 	private String corpo;
 	
-	private String remetente;
-	private String emailRemetente;
+	private InternetAddress remetente;
 	
-	private String destinatario;
-	private String emailDestinatario;
+	private List<InternetAddress> destinatarios;
 	
 	public Email() {
+		destinatarios = new ArrayList<InternetAddress>();
 		// TODO Auto-generated constructor stub
-	}
-	public Email(String assunto, String mensagem, String remetente, String emailRemetente, 
-			String destinatario, String emailDestinatario){
-		
-		this.assunto = assunto;
-		this.corpo = mensagem;
-		this.remetente = remetente;
-		this.emailRemetente = emailRemetente;
-		this.destinatario = destinatario;
-		this.emailDestinatario = emailDestinatario;
-		
 	}
 
 	public void setAssunto(String assunto) {
@@ -33,20 +26,12 @@ public class Email {
 		this.corpo = mensagem;
 	}
 
-	public void setRemetente(String remetente) {
+	public void setRemetente(InternetAddress remetente) {
 		this.remetente = remetente;
 	}
 
-	public void setEmailRemetente(String emailRemetente) {
-		this.emailRemetente = emailRemetente;
-	}
-
-	public void setDestinatario(String destinatario) {
-		this.destinatario = destinatario;
-	}
-
-	public void setEmailDestinatario(String emailDestinatario) {
-		this.emailDestinatario = emailDestinatario;
+	public void setDestinatarios(List<InternetAddress> destinatarios) {
+		this.destinatarios = destinatarios;
 	}
 
 	public String getAssunto() {
@@ -57,20 +42,17 @@ public class Email {
 		return corpo;
 	}
 
-	public String getRemetente() {
+	public InternetAddress getRemetente() {
 		return remetente;
 	}
 
-	public String getEmailRemetente() {
-		return emailRemetente;
-	}
 
-	public String getDestinatario() {
-		return destinatario;
+	public List<InternetAddress> getDestinatarios() {
+		return destinatarios;
 	}
-
-	public String getEmailDestinatario() {
-		return emailDestinatario;
+	
+	public void addDestinatario(InternetAddress destinatario){
+		destinatarios.add(destinatario);
 	}
 	
 	

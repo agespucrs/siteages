@@ -1,5 +1,7 @@
 package br.ages.bo;
 
+import javax.mail.internet.InternetAddress;
+
 import br.ages.crud.util.EmailValidator;
 import br.ages.model.Email;
 
@@ -34,20 +36,22 @@ public class EmailBO {
 		return false;
 	}
 	public boolean validarRemetente(Email email){
-		if(email.getRemetente().length() < tamanhoNome) return true;
+		if(email.getRemetente().getPersonal().length() < tamanhoNome) return true;
 		return false;
 	}
 	public boolean validarEmailRemetente(Email email){
-		if(emailValidator.validate(email.getEmailRemetente())) return true;
+		if(emailValidator.validate(email.getRemetente().getAddress())) return true;
 		return false;
 	}
 	public boolean validarDestinatario(Email email){
-		if(email.getRemetente().length() < tamanhoNome) return true;
+		if(email.getRemetente().getPersonal().length() < tamanhoNome) return true;
 		return false;
 	}
 	public boolean validarEmailDestinatario(Email email){
-		if(emailValidator.validate(email.getEmailDestinatario())) return true;
-		return false;
+		for(InternetAddress ia: email.getDestinatarios()){
+			if(!emailValidator.validate(ia.getAddress())) return false;
+		}
+		return true;
 	}
 
 	public void salvar(Email emailAGES) {

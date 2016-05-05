@@ -1,7 +1,10 @@
 package br.ages.servlet;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
+import javax.mail.internet.InternetAddress;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -54,13 +57,15 @@ public class FaleConosco extends HttpServlet {
 			String assunto = request.getParameter("assunto");
 			String corpo = request.getParameter("corpo");
 
+			InternetAddress remetente = new InternetAddress(enderecoEmail, nome);
+			List<InternetAddress> destinatarios = new ArrayList<InternetAddress>();
+			destinatarios.add(new InternetAddress("AGES", nossoEmail));
+			
 			email = new Email();
-			email.setRemetente(nome);
-			email.setEmailRemetente(enderecoEmail);
+			email.setRemetente(remetente);
 			email.setAssunto(assunto);
 			email.setCorpo(corpo);
-			email.setDestinatario("AGES");
-			email.setEmailDestinatario(nossoEmail);
+			email.setDestinatarios(destinatarios);
 			emailBO = new EmailBO();
 
 			if(emailBO.validar(email)){

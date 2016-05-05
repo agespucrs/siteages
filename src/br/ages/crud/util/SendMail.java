@@ -1,5 +1,8 @@
 package br.ages.crud.util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.mail.internet.InternetAddress;
 
 import org.apache.commons.mail.DefaultAuthenticator;
@@ -9,17 +12,18 @@ import org.apache.commons.mail.SimpleEmail;
 import br.ages.model.Email;
 
 public class SendMail {
+	
+	private final String nossoEmail = Constantes.EMAIL_AGES;
+	
 	public SendMail() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public void envioSimples(Email mail) {
 		try {
-			String emailDestinatario = mail.getDestinatario();
-			String destinatario = mail.getDestinatario();
+			List<InternetAddress> destinatarios = mail.getDestinatarios();
 			String assunto = mail.getAssunto();
 			String corpo = mail.getCorpo();
-			
 			
 			
 			SimpleEmail email = new SimpleEmail();
@@ -31,10 +35,10 @@ public class SendMail {
 			email.setSSLOnConnect(true);
 
 		  // Destinatário
-			email.addTo(emailDestinatario, destinatario);
+			email.setTo(destinatarios);
 
 		  // Remetente
-			email.setFrom("ages@pucrs.br","AGES = Agência Experimental de Engenharia de Software" );
+			email.setFrom(nossoEmail, "AGES - Agência Experimental de Engenharia de Software" );
 
 			// Assunto
 			email.setSubject(assunto);
