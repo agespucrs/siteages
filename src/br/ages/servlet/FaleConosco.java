@@ -59,7 +59,7 @@ public class FaleConosco extends HttpServlet {
 
 			InternetAddress remetente = new InternetAddress(enderecoEmail, nome);
 			List<InternetAddress> destinatarios = new ArrayList<InternetAddress>();
-			destinatarios.add(new InternetAddress("AGES", nossoEmail));
+			destinatarios.add(new InternetAddress("AGES - Agência Experimental de Engenharia de Software", nossoEmail));
 			
 			email = new Email();
 			email.setRemetente(remetente);

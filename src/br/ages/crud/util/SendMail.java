@@ -19,36 +19,32 @@ public class SendMail {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void envioSimples(Email mail) {
-		try {
-			List<InternetAddress> destinatarios = mail.getDestinatarios();
-			String assunto = mail.getAssunto();
-			String corpo = mail.getCorpo();
+	public void envioSimples(Email email) {
+		try {			
 			
-			
-			SimpleEmail email = new SimpleEmail();
+			SimpleEmail simpleEmail = new SimpleEmail();
 			// Servidor SMTP para envio do e-mail
-			email.setHostName("smtp.gmail.com");
+			simpleEmail.setHostName("smtp.gmail.com");
 
 			// Autenticação
-			email.setAuthenticator(new DefaultAuthenticator("cassiowt@gmail.com", "c978c978"));
-			email.setSSLOnConnect(true);
+			simpleEmail.setAuthenticator(new DefaultAuthenticator("cassiowt@gmail.com", "c978c978"));
+			simpleEmail.setSSLOnConnect(true);
 
-		  // Destinatário
-			email.setTo(destinatarios);
+			// Destinatário
+			simpleEmail.setTo(email.getDestinatarios());
 
-		  // Remetente
-			email.setFrom(nossoEmail, "AGES - Agência Experimental de Engenharia de Software" );
+			// Remetente
+			simpleEmail.setFrom(email.getRemetente().getAddress(), email.getRemetente().getPersonal());
 
 			// Assunto
-			email.setSubject(assunto);
+			simpleEmail.setSubject(email.getAssunto());
 
 			// Corpo
-			email.setMsg(corpo); // Conteúdo do
+			simpleEmail.setMsg(email.getCorpo());
 
 			// Envio
-			email.send();
-			System.out.println(email.getSentDate());
+			simpleEmail.send();
+			System.out.println(simpleEmail.getSentDate());
 		} catch (EmailException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
