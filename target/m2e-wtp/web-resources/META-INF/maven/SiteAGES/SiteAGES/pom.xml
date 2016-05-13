@@ -6,14 +6,10 @@
 	<version>0.0.${build.number}-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>SiteAGES</name>
-
 	<description>Site AGES</description>
-
-
 	<properties>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 	</properties>
-
 	<profiles>
 		<!-- Profile de desenvolvimento (padrao) -->
 		<profile>
@@ -37,7 +33,7 @@
 				<sgbd.url>jdbc:mysql://10.32.223.4:3306/ages_e</sgbd.url>
 				<sgbd.user>root</sgbd.user>
 				<sgbd.password>Ages123$$</sgbd.password>
-				<upload.path>/home/ages/uploadProjetos</upload.path>
+				<upload.path>/home/ages/upload</upload.path>
 				<log.path>/home/ages/</log.path>
 			</properties>
 		</profile>
@@ -48,7 +44,7 @@
 				<sgbd.url>jdbc:mysql://localhost:3306/ages_e</sgbd.url>
 				<sgbd.user>ages_e</sgbd.user>
 				<sgbd.password>oissac1906#ages_e</sgbd.password>
-				<upload.path>/home/ages/uploadProjetos</upload.path>
+				<upload.path>/home/ages/upload</upload.path>
 				<log.path>/home/ages/</log.path>
 			</properties>
 		</profile>
@@ -71,10 +67,8 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
-
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
-
 				</configuration>
 			</plugin>
 			<plugin>
@@ -92,7 +86,7 @@
 				<configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/SiteAGES</path>
+					<path>/siteages</path>
 					<username>admin</username>
 					<password>admin</password>
 				</configuration>
@@ -104,6 +98,36 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.35</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>2.0.2-beta</version>
 		</dependency>
 	</dependencies>
 </project>
